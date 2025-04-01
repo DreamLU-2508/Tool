@@ -1,0 +1,92 @@
+﻿Key, Text
+UI_TypeUISelectFavour_PowerUpWeapon_SummonQuantityModifier,Summon Quantity Bonus
+Tooltip_GemUnsockedEffect_Title,Unsocketed Effect
+Item_GemUnSocketedEffects_ProjectilePower,{0} {1} for each Projectile Power item.
+Item_GemUnSocketedEffects_MeleePower,{0} {1} for each Melee Power item.
+Item_GemUnSocketedEffects_MagicPower,{0} {1} for each Magic Power item.
+Item_GemUnSocketedEffects_Luck,{0} {1} for each Luck item.
+Item_GemUnSocketedEffects_ResourceGain,{0} {1} for each Resource Gain item.
+Item_GemUnSocketedEffects_ExperienceGain,{0} {1} for each Experience Gain item.
+Item_GemUnSocketedEffects_LifeSteal,{0} {1} for each LifeSteal item.
+Item_GemUnSocketedEffects_Recovery,{0} {1} for each Recovery item.
+Item_GemUnSocketedEffects_DodgeChance,{0} {1} for each Dodge Chance item.
+Item_GemUnSocketedEffects_Armor,{0} {1} for each Armor item.
+Item_GemUnSocketedEffects_Vitality,{0} {1} for each Vitality item.
+Item_GemUnSocketedEffects_SummonQuantity,{0} {1} for each Summon Quantity item.
+Item_GemUnSocketedEffects_SummonPower,{0} {1} for each Summon Power item.
+Item_GemUnSocketedEffects_SummonDuration,{0} {1} for each Summon Duration item.
+Resolver_GemResolverWithoutCondition_Weapon,Increases weapon's {0} by {1}
+Resolver_GemResolverWithoutCondition_Summon,Increases summoned units' {0} by {1}
+Resolver_GemResolverWithoutCondition_Range_Summon,Increases the {0} of summoned units by {1}
+Resolver_GemResolverMultiple_Pierce_PierceDamage_Weapon,Increases weapon's {0} by {1} and reduces pierce damage loss by {2}
+Resolver_GemResolverOnActiveSummonUnitCountChange_AreaOfEffectModifier_Summon,Increases summon attack's {0} by {1} for every {2} active summoned units{Replace} up to a maximum of {3}
+Resolver_GemResolverMultiple_Summon,Summoned units have a {0} chance to apply {1}{Replace} restoring {2} HP and healing the player
+Resolver_GemResolverRegularUpdate_Recovery_Weapon,Every {0} seconds without taking damage{Replace} increases {1} by {2}{Replace} up to a maximum of {3}. Reset when floor ends
+Resolver_GemResolverAddPlagueStatus_Summon,Summoned units have a {0} chance to apply {1} on hit
+Resolver_GemResolverAddPlagueStatus_Weapon,On hit{Replace} has a {0} chance to apply {1}
+Resolver_GemResolverTrigger_OnCritical_Chill_Weapon,On critical hit{Replace} {0} chance to apply 1 stack of {1}
+Resolver_GemResolverSpawnAtkSummonUnit_Summon,Summoned units explode on death{Replace} dealing {0} of their damage as AOE damage and applying {1}
+Resolver_GemResolverTrigger_SummonPower_Weapon,Every {0} kills{Replace} increases {1} by {2}{Replace} up to a maximum of {3}. Reset when floor ends
+Resolver_GemResolverWithoutCondition_SummonPowerGainModifier_Summon,Summoned units gain an additional {0} {1}
+Resolver_GemResolverOnActiveSummonUnitCountChange_CritModifier_Weapon,Increases {0} by {1} for each active summoned unit{Replace} up to a maximum of {2} units counted
+Resolver_GemResolverTriggerForSummonUnit_SummonQuantityModifier_Summon,Summon item gain {0} {1} for every {2} enemies its summoned units kill{Replace} up to maximum of {3} kills. Kill count carries over between resocketing
+Resolver_GemResolverWithoutConditionConvertStats_AttackSpeedBonus_Weapon,This weapon gains {0} of {1} as {2} {3}
+Resolver_GemResolverWithoutConditionConvertStats_SummonCooldownReduction_Summon,Summon items convert {0} of {1} into {2}
+Resolver_GemResolverChanceResetDurationOnKill_ChanceResetSummonUnitDuration_Summon,Summoned units have a {0} chance to reset their duration on kill.
+Resolver_GemResolverTrigger_SummonDuration_Weapon,On killing an enemy{Replace} extends {0} by {1}{Replace} up to a maximum of {2}. Resets when the floor ends.
+Resolver_GemResolverAlwaysUpdate_MoveSpeed_AttackSpeed_Summon,When standing next to the summon{Replace} {0} is increased by {1}. Additionally{Replace} the summon’s {2} is increased by {3} when the player is within a range of {4}.
+Resolver_GemResolverTrigger_MoveSpeed_Weapon,Increases {0} by {1} when the weapon kills an enemy{Replace} up to a maximum of {2}. Resets when the floor ends.
+Resolver_GemResolverTrigger_Range_Weapon,On a critical hit{Replace} increases {0} by {1}{Replace} up to a maximum of {2}. Resets when the floor ends.
+Resolver_GemResolverAddShockStatusEffect_Summom,Summoned units deal an additional {0} damage on hit with a {1} chance to apply {2}. If the summon already has {3}{Replace} the additional damage effect is increased by {4}.
+Resolver_GemResolverAddShockStatusEffect_Weapon,On hit{Replace} deals an extra {0} damage with a {1} chance to apply {2}. If the weapon already has {3}{Replace} the extra damage effect is increased by {4}.
+Resolver_GemResolverWithoutCondition_SummonHealthRegen_Summon,Summoned units regenerate {0} health per second.
+Resolver_GemResolverAddBurnStatusEffect_SummonPower_Summon,Summoned units apply {4}{Replace} dealing {0} ({1}) damage for each stack. If the summoned unit already applies {5}{Replace} increase burn damage by {3} instead
+Resolver_GemResolverAddBurnStatusEffect_MagicPower_Weapon,Applies {4}{Replace} dealing {0} ({1}) damage  for each stack. If the weapon already applies {5}{Replace} increase burn damage by {3} instead
+Resolver_GemResolverWithoutCondition_SummonReducedDamagePercentage_Summon,Summoned units take {0}% reduced damage.
+Resolver_GemResolverTrigger_Armor_Weapon,Increases {0} by {1} after every {2} enemy kills{Replace} up to a maximum of {3}. Resets when the floor ends.
+Resolver_GemResolverTrigger_GoldGain_Summon,Gain {0} gold for every {1} kills.
+Resolver_GemResolverTrigger_DodgeChance_Weapon,Increases {0} by {1} after every {2} enemy kills{Replace} up to a maximum of {3}. Resets when the floor ends.
+Resolver_GemResolverTrigger_SummonVitality_Summon,Summoned units gain {0} bonus {1} per kill{Replace} up to a maximum of {2}. Resets when the floor ends.
+Resolver_GemResolverTrigger_Vitality_Weapon,On Life Steal{Replace} increases {0} by {1}{Replace} up to a maximum of {2}. Resets when the floor ends.
+Item_Upgrade_Description_EternumAnvil,{ENHANCEMENTDETAIL}:{0}<br><br>{ADVANCEDENHANCEMENT}:{1}<br><br>{ENHANCEMAXLEVEL}
+Item_Upgrade_EternumAnvil,Enhance one weapon and gain bonus stats (Apply for attack weapon only)
+Item_Description_AdvancedEnhancement,For every {0} upgrades{Replace} the weapon gains one special stat
+Item_Description_EnhancementDetail,Weapon gains one of the following stats
+Item_Description_MaximumEnhance,Upgrade Maximum: {0} Levels
+StatusDescription_TotalDuration,Total duration: {Color}{TotalDuration} seconds
+StatusDescription_MaxStack,Max Stacks: {Color}{MaxStacks}
+StatusDescription_MaxStack_NoLimit,No limit
+StatusDescription_OnNewEffectApply_AddAndReset,On applying a new effect: {Color}Add a stack and reset the duration countdown
+StatusDescription_OnDurationEnd_RemoveAll,On duration expiration: {Color}Remove all stacks
+StatusDescription_OnDurationEnd_RemoveAndReset,On duration expiration: {Color}Remove 1 stack and reset the duration
+StatusDescription_Curse,{Terms}: Each stack of {Terms} causes the target to receive an additional {FirstValue} damage from all sources
+StatusDescription_Plague,{Terms}: Deals {FirstValue} ({IconScale}) damage per second for each stack of {Terms}. When an enemy affected by {Terms} dies{Replace} {SecondValue} of its stacks spread to nearby enemies.
+StatusDescription_OnNewEffectApply_Shock,On applying a new effect: {Color}Increase the stack and slightly extend {Terms} duration.
+StatusDescription_Shock,{Terms}: Shocked enemies are stunned for the duration and deal {FirstValue} damage per second per {Terms} stack to nearby enemies. Additionally{Replace} they receive {SecondValue} extra damage from critical strikes for each {Terms} stack. Applying new {Terms} stacks extends the duration.
+StatusDescription_Cold,{Terms}: Each stack of {Terms} reduces movement and action speed by {FirstValue} for {SecondDuration}
+StatusDescription_Burn,{Terms}: Deals damage equal to the total damage of all {Terms} stacks every second for {TotalDuration} seconds. Applying a new {Terms} stack resets the duration of all stacks.
+TERMS_Curse,Curse
+Item_Stat_UseStats,Use Stats Effectiveness
+UI_StatusEffect_Title,Glossary
+Item_Description_Shotgun,The attack deals heavy knockback and {TERMS_Burn} the target{Replace} dealing {SECONDARY_SecondaryDamage} damage per stack. The closer the enemy{Replace} the more damage they take and the stronger the knockback. Has a {SECONDARY_ProjectilesChange} chance to fire a burst of explosive grenades<br>Reload after {SECONDARY_Projectiles} shots<br>Reload time: {SECONDARY_AttackSpeed}<br>Has a {SECONDARY_SecondaryProcChance} chance to summon an unit when killing an enemy
+Item_Consume_Styx_Water_Name,Darkwater Draught
+ROUTINE_ReduceMaxHealthNextFloor,Reduces {0} maximum health (affecting both {1} and {2}).
+StatusDescription_OnDurationEnd_RemoveOneStack,On duration expiration: {Color}Remove 1 stack every {RemoveStackDuration} second.
+Item_PotionOfRage_Name,Potion Of Rage
+ROUTINE_StatIncrease_Damage,When consumed{Replace} permanently increases Damage by {0}.
+ROUTINE_StatDecrease_ExperienceGain,When consumed{Replace} permanently decreases Experience Gain by {0}.
+Item_PactWine_Name,Pact Wine
+Item_Description_WP_DLC_PoisonDagger,Inflicts {TERMS_Plague} on hit. Critical strike chance is multiplied by {SECONDARY_CritChanceModifier} when attacking. On a critical hit{Replace} inflicts {TERMS_Bleed}{Replace} dealing {SECONDARY_SecondaryDamageModifier@NoPrefix}% the damage dealt over {StatusEffect_Duration@Bleed} seconds.
+TERMS_Bleed,Bleed
+Weapon_Summon_HungryGhoul_Name,Carved Bones
+AllySummonUnit_HungryGhoul_Name,Hungry Ghoul
+Item_Description_Summon_HungryGhoul,Increase Lifesteal chance by {RULE_ItemPowerUp@0@0} for each adjacent Lifesteal item
+Character_Archetype16_Name,The Plague Doctor
+Character_Character45_Name,Plague Doctor
+Character_Character46_Name,Plague Specter
+Character_Character47_Name,Plague Patron
+SummonUnit_Description_HungryGhoul,Attacks enemies with melee attacks that can apply lifesteal. Whenever it lifesteals{Replace} heals for {STAT_LifeStealAmount} HP and also restores 1 HP to the player
+Weapon_Summon_NatureElemental_Name,Nature Elemental
+AllySummonUnit_NatureElemental_Name,Nature Elemental
+SummonUnit_Description_NatureElemental,A large tree that spreads its roots over a wide area<br>Enemies within the roots' area of effect are slowed by {SECONDARY_MoveSpeedReduced} and gain {STAT_AttackSpeedBase@NoSuffix} stack of {TERMS_Plague} per second<br>Whenever an enemy dies within the roots{Replace} there is a {SECONDARY_SecondaryProcChance} chance that all allies inside the area are healed for {STAT_Heal} ({ICON_TieredValueWithScaling@Heal})
+UI_TypeUISelectFavour_PowerUpWeapon_SummonQuantityBonus,Summon Quantity Bonus
